@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    background: url(https://media.tenor.com/0Mg3R5jZUnQAAAAd/thanos-dance.gif);
+}
+
+.calc-body {
+    background: lightslategrey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 80vh;
+    width: 60vw;
+}
+
+.result {
+    position: absolute;
+    height: 80vh;
+    width: 30vw;
+    background: slategray;
+    border-top-left-radius: 20px;
+}
+
+.result h1 {
+    text-align: center;
+    font-size: 45px;
+    margin: 40px;
+}
+
+.show {
+    position: absolute;
+    margin: 50px 20px;
+}
+
+.show h2 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.main-inp {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    min-height: 84vh;
+    min-width: 85vw;
+    display: flex;
+    margin-left: 35px;
+}
+
+.inp {
+    text-align: center;
+}
+
+input {
+    margin: 15px;
+    height: 49px;
+    width: 350px;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+    font-weight: 800;
+}
+
+button {
+    margin-top: 0px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+    transition: .4s;
+}
+
+.resultShow {
+    position: static;
+    text-align: center;
+    height: 50px;
+    width: 60vw;
+    margin-top: 650px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: grey;
+}
+
+.resultShow h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
